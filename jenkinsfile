@@ -3,9 +3,8 @@ pipeline {
     stages {
         stage('Build and Deploy Website 2') {
             steps {
-                echo "Building and Deploy flight Website"  
+                echo "Building and Deploying Flight Website"
             }
         }
     }
 }
-
