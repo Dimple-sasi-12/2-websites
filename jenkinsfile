@@ -1,0 +1,11 @@
+pipeline {
+    agent any
+    stages {
+        stage('Build and Deploy Website 1') {
+            steps {
+                echo "Building and Deploy multi-color website"
+            }
+        }
+    }
+}
+
